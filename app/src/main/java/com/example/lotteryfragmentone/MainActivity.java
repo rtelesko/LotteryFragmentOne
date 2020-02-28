@@ -1,13 +1,18 @@
 package com.example.lotteryfragmentone;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentActivity;
 
 import android.os.Bundle;
+/*
+Fragment Life Cycle: https://developer.android.com/guide/components/fragment
 
-public class MainActivity extends AppCompatActivity {
+There are two ways to add a fragment to an activity: dynamically using Java and statically using XML.
+Before embedding a "support" fragment in an Activity make sure the Activity is changed to extend from
+FragmentActivity or AppCompatActivity which adds support for the fragment manager to all Android versions.
+*/
 
-
-    // Project Source: https://www.javatpoint.com/android-fragments
+public class MainActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

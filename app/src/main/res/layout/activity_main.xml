@@ -6,6 +6,8 @@
     android:layout_height="fill_parent"
     tools:context="com.example.lotteryfragmentone.MainActivity">
 
+    <!-- Static fragment: A static Fragment is included in an XML file using a fragment tag within another XML layout.-->
+
     <fragment
         android:id="@+id/frFragment1"
         android:name="com.example.lotteryfragmentone.Fragment1"
