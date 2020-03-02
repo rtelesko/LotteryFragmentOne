@@ -1,9 +1,8 @@
 package com.example.lotteryfragmentone;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentActivity;
-
 import android.os.Bundle;
+
+import androidx.fragment.app.FragmentActivity;
 /*
 Fragment Life Cycle: https://developer.android.com/guide/components/fragments
 
